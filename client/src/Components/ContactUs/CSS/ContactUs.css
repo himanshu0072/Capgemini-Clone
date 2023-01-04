@@ -1,0 +1,196 @@
+.contact_img_container img {
+  width: 100vw;
+}
+
+.contact_img_container {
+  position: relative;
+}
+
+.contact_img_overlay {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  /* width: 60vw;
+    height: 50vh; */
+  height: fit-content;
+  width: fit-content;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10% 40%;
+  padding-left: 4vw;
+  color: #0c4e71;
+  background-image: linear-gradient(239deg, #007bbd, #003f61);
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+.contact_img_overlay h1 {
+  color: white;
+}
+
+@media screen and (max-width: 750px) {
+  .contact_img_overlay {
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+
+  .contact_img_container {
+    margin: auto;
+  }
+}
+
+.contact_text_cm {
+  margin: 37vh 4.5vw;
+  margin-bottom: 20vh;
+}
+
+.contact_text_cm h1 {
+  margin-bottom: 45px;
+}
+.contact_text_cm h2 {
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1260px) {
+  .contact_text_cm {
+    margin: 20vh 7vw;
+    margin-bottom: 15vh;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .contact_text_cm {
+    margin-top: 40vh;
+    margin-bottom: 20vh;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contact_text_cm {
+    margin-top: 15vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact_text_cm {
+    margin-top: 10vh;
+  }
+}
+
+.contact_text_cm p {
+  font-size: 1rem;
+  color: #15011d;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  font-family: 'Ubuntu';
+}
+
+.contactButton:hover,
+.contactButton:focus,
+.contactButton:focus-within {
+  color: #15011d;
+  border-color: #00e6e3;
+  box-shadow: 0 6px 30px 0 rgb(0 0 0 / 20%);
+  transform: scale(1.2);
+  z-index: 1;
+  background: #00e6e3;
+  transition: transform 0.5s;
+}
+
+.contactButton {
+  text-decoration: none;
+  color: black;
+  border: 1px solid;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  min-height: 3rem;
+  height: 3rem;
+  max-width: 19rem;
+  border-radius: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.contactButton span {
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.subGlobalContactMarginLeft {
+  margin-left: 20px;
+}
+
+.subGlobalContact {
+  margin-top: 35px;
+}
+
+.subGlobalContactClient,
+.subGlobalContactHead {
+  display: flex;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 650px) {
+  .subGlobalContactClient,
+  .subGlobalContactHead {
+    display: flex;
+    flex-direction: column;
+  }
+  .subGlobalContactClient div,
+  .subGlobalContactHead div {
+    margin-top: 25px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .subGlobalContactMarginLeft {
+    margin-left: 0;
+  }
+}
+
+.contactUsEnquries {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  background-color: #007bbd;
+  align-items: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.contactUsEnquries div p {
+  font-size: 20px;
+  width: 80%;
+}
+
+.specialContactButton {
+  background-color: white;
+  border: none;
+}
+
+@media screen and (max-width: 905px) {
+  .contactUsEnquries {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Contact Us Form */
+.contactUsFormMain {
+  margin-bottom: 6rem;
+}
+
+.contactUsFormHeading {
+  margin: 0 4rem 4rem 4.8rem;
+}
+
+.contactUsForm {
+  justify-content: center;
+  align-items: center;
+}

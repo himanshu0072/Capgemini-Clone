@@ -1,0 +1,40 @@
+.rating-img-set{
+    width: 100%;
+    height: auto;
+}
+/* .card-career-set{
+
+}
+.heading-of-h1{
+
+} */
+
+.hover-card-text:hover{
+width: -moz-fit-content;
+background-repeat: no-repeat;
+background-image: linear-gradient(#00e6e3, #00e6e3);
+  color: rgb(0, 0, 0);
+  transition: margin-left 1s  ease-in-out;
+}
+.flex-card-img{
+    display: flex;
+}
+.card-set-up{
+    height: 100px;
+    width: 100px;
+}
+.text-back-color{
+background-color: whitesmoke;
+color: black;
+margin: 0px 0px 47px 0px;
+opacity: 0.9;
+border-radius: 20px;
+height: 170px;
+text-align: center;
+}
+.btn-set-center{
+    align-content: center;
+align-items: center;
+margin-left: 141px;
+margin-top: 30px;
+}

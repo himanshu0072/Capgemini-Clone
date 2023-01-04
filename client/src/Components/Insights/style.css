@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+/* Main Heading */
+.mainPageHeading {
+  padding: 48px 12px;
+}
+
+.mainPageHeading > h2 {
+  font-size: 1.75rem;
+  color: #15011d;
+  letter-spacing: 0.12px;
+  line-height: 32px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+/* Hero Section */
+.hero {
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 2rem;
+  max-height: 600px;
+}
+
+.heroImg {
+  width: 100%;
+  height: 270px;
+}
+
+.heroImg2,
+.heroImg3 {
+  display: none;
+}
+
+.heroCard {
+  border-radius: 0.3rem;
+  background-color: white;
+  padding: 2rem 1rem 1rem 1rem;
+  margin: 1.4rem;
+  box-shadow: 3px 15px 30px 0 rgb(0 0 0 / 15%);
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: relative;
+  bottom: 6.2rem;
+}
+
+.heroCard-Content > h4 {
+  padding: 0;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.heroCard-Content > p {
+  padding: 0;
+  padding-right: 0.8rem;
+  margin: 0;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.heroCard-ButtonMain {
+  display: flex;
+  justify-content: center;
+}
+
+.heroCard-Button {
+  border: 1px solid black;
+  color: black;
+  padding: 11px 24px;
+  border-radius: calc((50 / 16) * 1rem);
+}
+
+.heroCard-Button:hover {
+  text-decoration: none;
+}
+
+/* Cards Section */
+.cardMain {
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 4rem;
+}
+
+.cardMainHeading {
+  padding: 0 12px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.cardImg {
+  width: 100%;
+  transition: transform 0.2s;
+}
+
+.cardImg:hover {
+  transform: scale(1.1);
+}
+
+.cardHeading {
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+.cardPara {
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+.posCard {
+  padding: 0 12px;
+  margin-top: 0.8rem;
+  letter-spacing: 0.4px;
+}
+
+.rowOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  /* align-items: center; */
+  /* height: 100%; */
+}
+
+.btnCardPos {
+  margin-top: 32px;
+}
+
+/* Discover */
+.discoverMain {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0.6rem;
+}
+
+.discover {
+  display: flex;
+  flex-direction: column;
+}
+
+.discoverHeading {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.discoverCard {
+  padding-bottom: 2rem;
+}
+
+.discoverImg {
+  overflow: hidden;
+}
+
+.discoverImg > img {
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.discoverImg > img:hover {
+  transform: scale(1.2);
+}
+
+.discoverCont > h4 {
+  margin: 1rem 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.discoverCont > p {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 375px) {
+  /* Hero */
+  .heroCard {
+    margin: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  /* Hero */
+  .heroCard-Content > p {
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Main Heading */
+  .mainPageHeading {
+    padding: 3rem 4.9rem 3rem 2rem;
+  }
+
+  /* Hero */
+  .hero {
+    max-height: 530px;
+  }
+
+  .heroCard {
+    gap: 0rem;
+    margin: 1.4rem 2rem;
+  }
+
+  .heroImg {
+    display: none;
+  }
+
+  .heroImg2 {
+    width: 100%;
+    height: 378px;
+    display: inline;
+  }
+
+  .heroCard-Content > p {
+    padding-right: 1.8rem;
+    letter-spacing: 0.4px;
+    line-height: 1.5rem;
+  }
+
+  .heroCard-Content {
+    padding-left: 28px 16px;
+  }
+
+  .heroCard-ButtonMain {
+    justify-content: flex-end;
+  }
+
+  /* Cards */
+  .cardMain {
+    margin: 0 8px 4rem 8px;
+  }
+
+  .cardMainHeading {
+    margin: 2rem 1rem 1rem 1rem;
+  }
+
+  .rowOne {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    row-gap: 2rem;
+  }
+
+  .posCard {
+    padding: 0 1.5rem;
+    margin-top: 0.6rem;
+  }
+
+  .cardContent {
+    justify-self: center;
+  }
+
+  .btnCardPos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* Discover */
+  .discoverMain {
+    margin: 2.3rem;
+  }
+
+  .discoverHeading {
+    margin-bottom: 2rem;
+  }
+
+  .discover {
+    flex-direction: row;
+    gap: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Main Heading */
+  .mainPageHeading {
+    padding: 3rem 13rem 3rem 3rem;
+  }
+  .mainPageHeading > h2 {
+    font-size: 2.24rem;
+    line-height: 48px;
+  }
+
+  /* Hero */
+  .hero {
+    max-height: 450px;
+  }
+
+  .heroImg2 {
+    display: none;
+  }
+
+  .heroImg3 {
+    width: 100%;
+    height: 400px;
+    display: inline;
+  }
+
+  .heroCard {
+    bottom: 23rem;
+    width: 776px;
+    height: 295px;
+    left: 1rem;
+    justify-content: space-between;
+    padding: 32px;
+  }
+
+  .heroCard-Content > p {
+    padding-right: 0;
+  }
+
+  /* Cards */
+  .cardMain {
+    margin: 0 16px 4rem 16px;
+  }
+
+  .cardMainHeading {
+    font-size: 32px;
+  }
+
+  .cardMain {
+    margin-top: 2rem;
+  }
+  .btnCardPos {
+    justify-content: flex-start;
+    padding-left: 24px;
+  }
+
+  /* Discover */
+  .discoverHeading {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  /* Main Heading */
+  .mainPageHeading {
+    padding: 3rem 14rem 3rem 72px;
+  }
+
+  /* Hero */
+  .heroCard {
+    width: 636px;
+    left: 2.5rem;
+  }
+}

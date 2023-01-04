@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*----------inside story----------*/
+
+.container{
+    height: 90vh;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+header{
+    height: 100px;
+    flex: 1 0 1000px;
+    font-size: 40px;
+}
+section{
+    height: 665px;
+    flex: 1 0 528px;
+    
+}
+section .img1{
+    width: 115%;
+    
+    height: auto;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .second-col{
+    padding-left: 15%;
+}
+section .img2{
+    width: 100%;
+    height: 250px;
+}
+.img2 img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+.container .img1 img:hover{
+    transform: scale(1.2);
+}
+ .container .img2 img:hover{
+    transform: scale(1.2);
+}
+.second-col h3{
+    margin-top: -15%;
+}
+section .i2a{
+    width: 95%;
+}
+section a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+section p{
+    padding-top: 5%;
+    font-size: 120%;
+}
+.inside_story_section .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    
+}
+.container .btn{
+    padding-left: 45%;
+}
+
+.container .btn button{
+    min-height: 3rem;
+    width: 180px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 25px;
+    
+}
+.btn button:hover{
+    background-color: #2ef;
+    transition: .5s;
+    transform: scale(1.1);
+}
+@media screen and (max-width: 1000px) {
+    .container{
+        display: block;
+        width: 100%;
+    }
+    section .img2{
+        margin-top: 10%;
+    }
+    .section{
+        margin-top: 10%;
+    }
+    .container .first-col{
+        width: 90%;
+        padding-right: 5%;
+    }
+    .container .second-col{
+
+        padding-left: 0;
+        margin-top: 0px;
+        padding-top: -7px;
+    }
+    .container .btn{
+        margin-top: 20%;
+        padding-left: 20%;
+    }
+
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .container .btn{
+        margin-top: -5%;
+        padding-left: 10%;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .container{
+        display: block;
+        width: 100%;
+
+    }
+    .container .first-col{
+        width: 90%;
+        padding-right: 5%;
+    }
+    .container .second-col{
+
+        padding-left: 0;
+        margin-top: 0px;
+        padding-top: 57px;
+    }
+    .container .img2 {
+        height: 60vh;
+    }
+    .container .second-col h3{
+        padding-top: -40%;
+        
+    }
+    .container .btn{
+        padding-top: 130%;
+        padding-left: 6%;
+    }
+}
+
+/*-----------explore_capgemini----------*/
+
+
+.explore_capgemini{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25%;
+}
+
+.explore_capgemini .cards{
+    width: 32%;
+    height: 400px;
+   
+    margin: .5%;
+}
+.cards .card_img{
+    height: 240px;
+}
+.cards .card_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.cards .head{
+    margin-top: 6%;
+    font-size: 150%;
+}
+.cards a{
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+}
+.cards .head:hover{
+    background-color: #2ef;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+    .explore_capgemini{
+        display: block;
+        padding-top: 230%;
+    }
+    .explore_capgemini .cards{
+        width: 98%;
+        margin: 4%;
+        height: 140px;
+        margin-bottom: 58%;
+    }
+    .cards .card_img img{
+        margin-top: 20px;
+    }
+    .cards h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 500px) {
+    .explore_capgemini{
+        display: block;
+        padding-top: 230%;
+    }
+    .explore_capgemini .cards{
+        width: 98%;
+        margin: 4%;
+        height: 140px;
+        margin-bottom: 58%;
+    }
+    .cards .card_img img{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px){
+    .explore_capgemini{
+        padding-top: 80%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+    .explore_capgemini{
+        padding-top: 150%;
+    }
+    .container .btn{
+        padding-top: 85%;
+        padding-left: 6%;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px){
+    .explore_capgemini{
+        padding-top: 80%;
+    }
+}

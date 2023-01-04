@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600&family=Ubuntu:wght@400;500&display=swap');
+
+/******************************** banner-section ******************************/
+
+.industry-banner-container {
+    position: relative;
+}
+
+.industry-banner-elements {
+    height: 400px;
+    position: relative;
+    background-position: 55% 55%;
+    background-image: url("https://www.capgemini.com/wp-content/uploads/2022/03/Capgemini_Industries.jpg?w=1440&quality=90");
+}
+
+.industry-banner-svg-img {
+    background: url("https://prod.ucwe.capgemini.com/wp-content/themes/capgemini2020/assets/images/desktop-shape-line-3-a-blue-vib.svg") no-repeat center top/100% auto;
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-position: -30% 100%;
+    top: 50px;
+    height: calc((500/16)*1rem);
+    z-index: 1;
+}
+
+.industry-banner-card {
+    color: #fff;
+    background-image: linear-gradient(239deg, #007bbd, #003f61);
+    opacity: .9;
+    border-radius: 4px;
+    box-shadow: 0 25px 100px 0 rgb(0 0 0 / 15%);
+    min-height: calc((280/16)*1rem);
+    min-width: auto;
+    margin-top: 173px;
+    width: auto;
+    padding: 2rem;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.industry-banner-card h1 {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 48px;
+    color: #15011d;
+    letter-spacing: .12px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fff;
+    word-break: break-word;
+}
+
+
+/******************************* service description section ************************************/
+
+.industry-description-container img {
+    width: 16px;
+}
+
+.industry-description-links:hover {
+    color: #15011d;
+    border-color: #01d1d0;
+    box-shadow: 0 6px 30px 0 rgb(0 0 0 / 20%);
+    transform: scale(1.2);
+    background-size: 100% 100%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.industry-description-links {
+    background-image: linear-gradient(#01d1d0, #01d1d0);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: all .2s ease-out;
+    position: relative;
+    border: 1px solid #15011d;
+    border-radius: 50%;
+    color: #15011d;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.industry-description-container {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.industry-description-para {
+    width: 90%;
+    margin-left: 50px;
+    font-size: 1rem;
+    color: #15011d;
+    letter-spacing: .4px;
+    line-height: 1.5rem;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    padding-top: 1.5rem;
+    margin-top: 0;
+}
+
+.industry-description-title {
+    width: 90%;
+    margin-bottom: 0;
+    font-size: 2.25rem;
+    font-size: 2.25rem;
+    color: #15011d;
+    letter-spacing: .12px;
+    line-height: 48px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 50px;
+}
+
+.industry-social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/************************************** exploring-section ************************************/
+.exploring-content:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 2;
+}
+
+.exploring-inner-box h4 {
+    font-size: 1.5rem;
+    color: #15011d;
+    letter-spacing: .4px;
+    line-height: 32px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    text-align: left;
+    word-break: break-word;
+    hyphens: auto;
+    width: fit-content;
+    background-image: linear-gradient(#00e6e3, #00e6e3);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: all .2s ease-out;
+}
+
+.exploring-inner-box {
+    background: #fff;
+    margin: 0 1.5rem;
+    box-shadow: 0 25px 100px 0 rgb(0 0 0 / 15%);
+    min-height: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    position: relative;
+    margin-top: -70px;
+}
+
+
+
+.exploring-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.exploring-content {
+    margin-bottom: 70px;
+    width: 100%;
+    transition: all .2s ease-out;
+    height: 100%;
+
+}
+
+
+.exploring-content:hover .inner-box-headline {
+    background-size: 100% 100%;
+    background-image: linear-gradient(#00e6e3, #00e6e3);
+    cursor: pointer;
+}
+
+.exploring-content:hover .exploring-img {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.exploring-img-container {
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+}
+
+.exploring-content img {
+    transition: all .5s ease-in-out;
+}
+
+.exploring-content-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+
+.exploring-section-container h1 {
+    margin-top: 48px;
+    font-size: 2rem;
+    color: #15011d;
+    letter-spacing: .12px;
+    line-height: 40px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+/**************************************** styling-for-laptop/tab *********************************************/
+@media only screen and (min-width:788px) and (max-width:992px) {
+    /* banner-section-styling-for-tab/laptop */
+
+    .industry-banner-svg-img {
+        background: url("https://prod.ucwe.capgemini.com/wp-content/themes/capgemini2020/assets/images/desktop-shape-line-3-a-blue-vib.svg") no-repeat center top/100% auto;
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-position: -30% 100%;
+        top: 0px;
+        height: calc((500/16)*1rem);
+    }
+
+    /* description-section-styling-for-tab/laptop */
+    .industry-social-links {
+        display: flex;
+    }
+
+    .industry-description-para {
+        margin-left: 25px;
+        font-size: 1rem;
+        color: #15011d;
+        letter-spacing: .4px;
+        line-height: 1.5rem;
+        font-family: "Ubuntu";
+        font-weight: 300;
+        padding-top: 1.5rem;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .industry-description-title {
+        width: 100%;
+        margin-left: 25px;
+        font-size: 1.55rem;
+        color: #15011d;
+        letter-spacing: .12px;
+        line-height: 30px;
+        font-family: "Ubuntu";
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+
+    .industry-description-container {
+        display: flex;
+        margin-top: 100px;
+        align-items: flex-start;
+    }
+
+    /* exploring-section-styling-for-tab/laptop */
+    .exploring-content-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 24px;
+    }
+}
+
+/**************************************** styling-for-mobile *********************************************/
+@media only screen and (max-width:788px) {
+
+    /* banner-section-styling-for-mobile */
+    .industry-banner-svg-img {
+        background: url("https://prod.ucwe.capgemini.com/wp-content/themes/capgemini2020/assets/images/heroHomePage_bgShape.svg") no-repeat center top/100% auto;
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-position: -30% 100%;
+        top: -160px;
+        height: calc((500/16)*1rem);
+    }
+
+    .industry-banner-elements {
+        height: 300px;
+        position: relative;
+        background-size: cover;
+        background-image: url("https://www.capgemini.com/wp-content/uploads/2021/09/Capgemini_Services.jpg?w=1440&quality=90");
+    }
+
+    .industry-banner-card {
+        min-height: calc((250/16)*1rem);
+        margin-top: 163px;
+    }
+
+    /* description-section-styling-for-mobile */
+    .industry-social-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .industry-description-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+    }
+
+
+
+    .industry-description-container a {
+        margin-right: 20px;
+    }
+
+    .industry-description-title {
+        width: 100%;
+        margin-left: 0px;
+        font-size: 1.55rem;
+        color: #15011d;
+        letter-spacing: .12px;
+        line-height: 30px;
+        font-family: "Ubuntu";
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+
+    .industry-description-para {
+        margin-left: 0px;
+        font-size: 1rem;
+        color: #15011d;
+        letter-spacing: .4px;
+        line-height: 1.5rem;
+        font-family: "Ubuntu";
+        font-weight: 300;
+        padding-top: 1.5rem;
+        margin-top: 0;
+        text-align: justify;
+        width: 100%;
+    }
+
+    /* exploring-section-design-for-mobile */
+    .exploring-content {
+        margin-bottom: 70px;
+        width: 100%;
+        transition: all .2s ease-out;
+        height: 100%;
+
+    }
+
+    .exploring-content-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+}

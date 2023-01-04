@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600&family=Ubuntu:wght@400;500&display=swap');
+
+
+.news-banner-container {
+    position: relative;
+}
+
+.news-banner-elements {
+    height: 400px;
+    position: relative;
+    background-position: 95% 20%;
+    background-image: url("https://www.capgemini.com/wp-content/uploads/2021/08/Capgemini_News-and-Media.jpg?w=1440&quality=90");
+}
+
+.news-banner-svg-img {
+    background: url("https://prod.ucwe.capgemini.com/wp-content/themes/capgemini2020/assets/images/desktop-shape-line-3-a-blue-vib.svg") no-repeat center top/100% auto;
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-position: -30% 100%;
+    top: 50px;
+    height: calc((500/16)*1rem);
+    z-index: 1;
+}
+
+.news-banner-card {
+    color: #fff;
+    background-image: linear-gradient(239deg, #007bbd, #003f61);
+    opacity: .9;
+    border-radius: 4px;
+    box-shadow: 0 25px 100px 0 rgb(0 0 0 / 15%);
+    min-height: calc((280/16)*1rem);
+    min-width: auto;
+    margin-top: 173px;
+    width: auto;
+    padding: 2rem;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.news-banner-card h1 {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 48px;
+    color: #15011d;
+    letter-spacing: .12px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fff;
+    word-break: break-word;
+}
+
+.latestnews {
+    margin-top: 4.3rem;
+    margin-left: 2.5rem;
+    margin-right: 2rem;
+}
+
+@media screen and (min-width:670px) {
+    .outerlatestnews {
+        display: flex;
+    }
+}
+
+
+
+.leftlatestnews {
+    flex: 0.33;
+    margin: 1rem;
+}
+
+.rightlatestnews {
+    flex: 0.67;
+    margin: 1rem;
+}
+
+.box-title {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+#news_container {
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    top: 21px;
+}
+
+#navagation {
+    min-height: 55px;
+    height: 55px;
+    width: calc(100% - 96px);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: sticky;
+    z-index: 104;
+    top: -14px;
+    background-color: white;
+}
+
+#navagation>a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(35, 33, 33);
+    text-align: center;
+    padding: 11px 10px;
+}
+
+#news_main_image {
+    height: 500px;
+    width: 100%;
+}
+
+.asdf {
+    object-position: 50% 50%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: -35px;
+    position: relative;
+    z-index: 2 !important;
+}
+
+.imgcontainer {
+    /* background: url(/wp-content/plugins/cg-blocks/assets/css/../../../../themes/capgemini2020/assets/images/desktop-shape-line-3-a-blue-vib.svg) no-repeat center top/100% auto; */
+    background-position-x: center;
+    background-position-y: top;
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-position: -30% 100%;
+    height: calc((500/16)*1rem);
+}
+
+
+
+
+.box-inner-news {
+    padding-left: 2rem;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.wp-block-cg-block-latest-reports .more2:hover,
+.wp-block-cg-block-latest-reports .more2:focus,
+.wp-block-cg-block-latest-reports .more2:focus-within {
+    color: #15011d;
+    border-color: #00e6e3;
+    box-shadow: 0 6px 30px 0 rgb(0 0 0 / 20%);
+    transform: scale(1.2);
+    z-index: 1;
+    background: #00e6e3;
+    transition: all .2s ease-out;
+}
+
+.newssection .container a:hover {
+    /* color: var(--bs-link-hover-color); */
+    text-decoration: none;
+}
+
+.wp-block-cg-block-latest-reports a.box-title1 h4:hover {
+    color: #15011d;
+    background-size: 100% 100%;
+}
+
+.box.box--event {
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(21, 1, 29, .2);
+    background: #fff;
+}
+
+.newssection .container h4 {
+    font-size: 1.125rem;
+    color: #15011d;
+    letter-spacing: .4px;
+    line-height: 24px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    background: linear-gradient(to right, #00e6e3 0%, #00e6e3 100%) no-repeat 0px 100%/0px 100%;
+    transition: all .2s ease-in-out;
+}
+
+.newssection #newsbottom h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    /* font-weight: 500;
+    line-height: 1.2; */
+}
+
+.newssection .container h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+}
+
+.box-img-wrapper {
+    margin-right: 0;
+}
+
+.box-img-wrapper {
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.newssection .container .box {
+    position: relative;
+}
+
+.newssection .container.more2 {
+    float: left;
+}
+
+.newssection .container .more2 {
+    border: 1px solid;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+    min-height: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+.newssection .container a {
+    color: var(--bs-link-color);
+    text-decoration: none;
+}
+
+.content-more {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.wp-block-cg-block-latest-reports {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/*next */
+
+.latestStoriesBlock .contentTitle h3 {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    color: #15011d;
+    font-size: 1.5rem;
+    line-height: 32px;
+    letter-spacing: .12px;
+    margin-bottom: 1rem;
+}
+
+.newssection #newsbottom {
+    display: block;
+}
+
+/* .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+} */
+/* .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+/* } */
+.newssection .container .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1*var(--bs-gutter-y));
+    margin-right: calc(-.5*var(--bs-gutter-x));
+    margin-left: calc(-.5*var(--bs-gutter-x));
+}
+
+.newssection .container .row>* {
+    /* flex-shrink: 0;
+    width: 100%; */
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    padding-left: calc(var(--bs-gutter-x)*.5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.readMoreBtnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* element.style {
+    object-position: 50% 50%;
+    object-fit: cover;
+} */
+
+.latestStoriesBlock .storyBox .storyInfo .storyTag:before {
+    content: "";
+    width: calc((19/16)*1rem);
+    height: calc((1/16)*1rem);
+    margin-right: calc((8/16)*1rem);
+    background: #15011d;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all .2s ease-in-out;
+}
+
+.latestStoriesBlock .storyBox .storyInfo p {
+    white-space: break-spaces;
+    font-size: 1rem;
+    color: #15011d;
+    letter-spacing: .4px;
+    line-height: 24px;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    text-align: left;
+}
+
+.newssection .container p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.latestStoriesBlock .storyBox .imageWrapper img {
+    position: absolute;
+    /* object-fit: cover; */
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in-out;
+    border-radius: 4px;
+}
+
+.newssection .container img,
+svg {
+    vertical-align: middle;
+}
+
+.newssection .container .storyInfo {
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.newssection .container .storyTag {
+    font-size: .875rem;
+}
+
+.latestStoriesBlock .storyBox .storyInfo .storyTag {
+    /* font-size: 1rem; */
+    color: #15011d;
+    letter-spacing: .4px;
+    line-height: 24px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.newssection .container .imageWrapper {
+    margin-bottom: 1rem;
+}
+
+.latestStoriesBlock .storyBox .imageWrapper {
+    position: relative;
+    padding-bottom: 56.2%;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.latestStoriesBlock .storyBox img:hover {
+    transform: scale(1.2);
+}
+
+/* next */
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+
+}
+
+.testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.testimonial-card li {
+    z-index: 10;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 1rem;
+}
+
+.icon-wrapper {
+    pointer-events: auto;
+    transition: all .2s ease-out;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #15011d;
+    background: #fff;
+    border-radius: 50%;
+    color: #15011d;
+    background: 0 0;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon-wrapper:before {
+    content: "";
+    display: block;
+    background: #01d1d0;
+    border-radius: 50%;
+    height: calc(100% + 2px);
+    width: calc(100% + 2px);
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.testimonial-card i {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    font-size: 1rem;
+    top: 0;
+    left: 0;
+}

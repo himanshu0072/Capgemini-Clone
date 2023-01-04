@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* ****************** Styling Main Layout ******************** */
+
+.bg {
+    background-color: #ececec;
+}
+
+.responsive-layout {
+    display: flex;
+}
+
+
+
+/* ****************** Styling Links Section ******************** */
+
+.links {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #15011d;
+    letter-spacing: .4px;
+    line-height: 39px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    text-align: left;
+    background-image: linear-gradient(#0070ad, #0070ad);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition: background-size .5s;
+    background-position: 0 100%;
+}
+
+.links:hover {
+    color: #0070ad;
+    background-size: 100% 1px;
+    cursor: pointer;
+}
+
+.links-list {
+    list-style: none;
+}
+
+
+
+/* ****************** Styling Brands Section ******************** */
+.brands-headline {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #15011d;
+    letter-spacing: .4px;
+    line-height: 39px;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    text-align: left;
+
+}
+
+.main-logo {
+    margin-bottom: -45px;
+    width: 180px;
+}
+
+.brands {
+    margin-top: 40px;
+}
+
+
+
+/* ****************** Styling Horizontal Lines ******************** */
+
+.hr-first {
+    display: none;
+    width: 100%;
+}
+
+.hr-second {
+    display: none;
+    width: 100%;
+}
+
+.hr-third {
+    display: block;
+}
+
+
+
+/* ************************ Styling for tab/laptop screen *************************** */
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    /* main layout */
+    .responsive-layout {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* links section */
+    .links {
+        line-height: 32px;
+    }
+
+    /* brands section */
+    .main-logo {
+        margin-bottom: 25px;
+    }
+
+    .brands-headline {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .brands {
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+
+    /* horizontal lines */
+    .hr-first {
+        display: block;
+        margin-top: 15x;
+        margin-bottom: 0px;
+    }
+
+    .hr-second {
+        display: block;
+    }
+
+    .hr-third {
+        display: none;
+    }
+}
+
+
+
+/* ************************ Styling for Mobile screen *************************** */
+@media only screen and (max-width:688px) {
+
+    /* main layout */
+    .responsive-layout {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    /* links section */
+    .links {
+        line-height: 32px;
+    }
+
+
+
+    /* brands section */
+    .main-logo {
+        margin-bottom: 25px;
+    }
+
+    .brands-headline {
+        margin-top: 0px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .brands {
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+
+
+    /* horizontal lines */
+    .hr-first {
+        display: block;
+        margin-top: 15x;
+        margin-bottom: 0px;
+    }
+
+    .hr-second {
+        display: block;
+    }
+
+    .hr-third {
+        display: none;
+    }
+}

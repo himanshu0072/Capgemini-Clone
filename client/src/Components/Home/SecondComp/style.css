@@ -1,0 +1,115 @@
+/* Main Div With two Div  */
+
+.containerSecond {
+    position: relative;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+/* Div 1 i.e. Left div for Text  */
+.left {
+    position: absolute;
+    display: inline-block;
+    height: 200px;
+    width: 60%;
+    z-index: 100;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-left: 44px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+/* Div 2 i.e. Right div for Image  */
+.right {
+    display: inline-block;
+    height: 300px;
+    margin-top: 44px;
+    margin-left: 60%;
+    width: 35%;
+    overflow: hidden;
+    z-index: 90;
+}
+
+/* For Image  */
+#SecImages {
+    height: 100%;
+    width: 100%;
+    transition: transform .3s;
+
+}
+
+#SecImages:hover {
+    transform: scale(1.2);
+}
+
+
+/* For Heading  */
+#SecHeading {
+    padding-top: 4%;
+    margin-left: 4%;
+
+}
+
+/* For Paragraph  */
+#SecPara {
+    margin-left: 4%;
+    font-size: 18px;
+
+}
+
+/* For button  */
+#SecButton {
+    margin-left: 80%;
+    font-size: 15px;
+}
+
+@media only screen and (min-width:600px) and (max-width:992px) {
+    .left {
+
+        height: 250px;
+        width: 90%;
+        background-color: white;
+        margin-left: 4%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    }
+
+    /* Div 2 i.e. Right div for Image  */
+    .right {
+        margin-top: 400px;
+        height: 300px;
+        margin-left: 4%;
+        width: 90%;
+        overflow: hidden;
+    }
+
+    #SecButton {
+        margin-left: 60%;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .left {
+
+        height: 250px;
+        width: 90%;
+        background-color: white;
+        margin-left: 4%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    }
+
+    /* Div 2 i.e. Right div for Image  */
+    .right {
+        margin-top: 400px;
+        height: 300px;
+        margin-left: 4%;
+        width: 90%;
+        overflow: hidden;
+    }
+
+    #SecButton {
+        margin-left: 60%;
+        font-size: 15px;
+    }
+}
